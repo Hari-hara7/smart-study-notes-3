@@ -1,0 +1,205 @@
+body, h1, h2, p, ul {
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+body {
+
+    font-family: 'Arial', sans-serif;
+
+    color: #fff; /* Text color set to white */
+
+    background-color: #000; /* Background color set to black */
+
+    line-height: 1.6;
+
+}
+
+/* Header styles */
+
+header {
+
+    background-color: #353535;
+
+    color: #fff;
+
+    padding: 20px 0;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+.logo-container img {
+
+    height: 80px;
+
+    width: auto;
+
+}
+
+nav ul {
+
+    list-style-type: none;
+
+    display: flex;
+
+}
+
+nav a {
+
+    text-decoration: none;
+
+    color: #dbdbdb;
+
+    margin: 0 15px;
+
+    font-size: 1.2em;
+
+    transition: color 0.3s ease;
+
+}
+
+nav a:hover {
+
+    color: #fff;
+
+}
+
+/* Section styles */
+
+section {
+
+    padding: 80px 0;
+
+    text-align: center;
+
+    background-color: #000;
+
+}
+
+h2 {
+
+    font-size: 2.5em;
+
+    margin-bottom: 20px;
+
+    color: #fff;
+
+}
+
+p {
+
+    font-size: 1.2em;
+
+    margin-bottom: 30px;
+
+    color: #ccc;
+
+}
+
+/* Footer styles */
+
+footer {
+
+    text-align: center;
+
+    padding: 20px 0;
+
+    background-color: #4b4b4b;
+
+    color: #fff;
+
+}
+
+.cta-button {
+
+    display: inline-block;
+
+    padding: 10px 20px;
+
+    font-size: 1em;
+
+    text-decoration: none;
+
+    color: #fff;
+
+    border-radius: 5px;
+
+    transition: background-color 0.3s ease;
+
+}
+
+.cta-button.blue {
+
+    background-color: #007bff; /* Blue color */
+
+}
+
+.cta-button:hover {
+
+    background-color: #0056b3; /* Darker blue on hover */
+
+}
+
+.gallery-container {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+
+}
+
+.gallery-item {
+
+    flex: 1 0 48%; /* Responsive gallery layout */
+
+    margin-bottom: 20px;
+
+    overflow: hidden;
+
+}
+
+.gallery-item img {
+
+    width: 100%;
+
+    height: auto;
+
+    border-radius: 8px;
+
+    transition: transform 0.3s ease;
+
+}
+
+.gallery-item img:hover {
+
+    transform: scale(1.1);
+
+}
+
+
+
+body {
+    text-align: center;
+    margin: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #3498DB;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
